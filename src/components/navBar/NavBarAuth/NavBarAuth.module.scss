@@ -1,0 +1,26 @@
+.nav {
+  width: 100%;
+  border-bottom: 3px solid black;
+}
+.list {
+  list-style: none;
+  display: flex;
+}
+.item {
+}
+.link {
+    color: black;
+    font-weight: 700;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all linear 250ms;
+  &:hover {
+    background-color: lightgrey;
+  }
+}
+
+.link:global(.active) {
+  color: black;
+}
